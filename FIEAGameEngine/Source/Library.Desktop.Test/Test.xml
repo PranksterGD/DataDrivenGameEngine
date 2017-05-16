@@ -1,0 +1,1 @@
+<Soldier name = 'Soldier:76' Health = '30'><Weapon Type = 'Shotgun' Ammo = '50' /><Position><X>20</X><Y>30</Y><Z>40</Z></Position></Soldier>

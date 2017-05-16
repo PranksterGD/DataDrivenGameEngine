@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{deb74418-6166-4200-890e-bbc86c047112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompiled Headers">
+      <UniqueIdentifier>{145e9c6d-63ca-4324-9696-6e3e13780321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functors">
+      <UniqueIdentifier>{8408c53e-2fc8-4080-ae3b-400ed4a4186e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTTI">
+      <UniqueIdentifier>{360d66f6-ebfe-4e3b-8451-49a0f452e4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML Parsing">
+      <UniqueIdentifier>{36aa771a-b9ec-4f7d-9576-a8d03d10ec8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{e5949944-f6f3-48a7-8d46-c6f851ecc19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameTimeManager">
+      <UniqueIdentifier>{397c2e69-7123-4741-bb86-93aceedf702b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldState">
+      <UniqueIdentifier>{5e3d17fd-e1b3-4d21-971b-22a0205d5024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actions">
+      <UniqueIdentifier>{9a8fc92a-46b6-4977-9a39-36202d0be7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{eab98532-3ee1-4127-a26a-bb9470492c21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
+      <Filter>Precompiled Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Datum.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scope.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Attributed.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseMaster.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IXmlParseHelper.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperTable.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperInteger.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperFloat.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperString.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperVector.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperMatrix.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameClock.cpp">
+      <Filter>GameTimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameTime.cpp">
+      <Filter>GameTimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)WorldState.cpp">
+      <Filter>WorldState</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)World.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sector.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Entity.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperWorld.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperSector.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperEntity.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Action.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionList.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionCreateAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionDestroyAction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionListIf.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperAction.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperActionListIf.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EventPublisher.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EventQueue.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EventMessageAttributed.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReactionAttributed.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Reaction.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionEvent.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)XmlParseHelperReaction.cpp">
+      <Filter>XML Parsing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h">
+      <Filter>Precompiled Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Vector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Hashmap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultHash.h">
+      <Filter>Functors</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Datum.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scope.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Attributed.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseMaster.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IXmlParseHelper.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperTable.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperInteger.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperFloat.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperString.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperVector.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperMatrix.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Factory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Sector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)World.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameTime.h">
+      <Filter>GameTimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameClock.h">
+      <Filter>GameTimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)WorldState.h">
+      <Filter>WorldState</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Entity.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperWorld.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperSector.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperEntity.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Action.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionCreateAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionDestroyAction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionListIf.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperAction.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperActionListIf.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventSubscriber.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventPublisher.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventQueue.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Reaction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventMessageAttributed.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReactionAttributed.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionEvent.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)XmlParseHelperReaction.h">
+      <Filter>XML Parsing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Slist.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Vector.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Hashmap.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)DefaultHash.inl">
+      <Filter>Functors</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Factory.inl">
+      <Filter>Factory</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Event.Inl">
+      <Filter>Events</Filter>
+    </None>
+  </ItemGroup>
+</Project>

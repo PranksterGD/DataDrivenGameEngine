@@ -1,0 +1,38 @@
+<World name = "PaulzWorld">
+	<Action class ='ActionEvent' name ='CreatingActions'>
+		<string name = 'Subtype' value ='Thing' />
+		<integer name = 'Delay' value = '15' />
+	</Action>
+	
+	<Action class ='ActionDestroyAction' name = 'DestroyEvent'>
+		<string name ='InstanceName' value ='CreatingActions' />
+	</Action>
+	<Sector name = "AwesomeTown">
+		<Reaction class ='ReactionAttributed' name ='SomeReaction'>
+			<string name ='Subtype' value='Thing' />
+		</Reaction>
+		
+		<Entity class ="Entity" name ="Paul">
+			<Action class ='ActionList' name ='BigList'>
+				<If name = 'IfAction' condition ='1'>
+					<Action class ='ActionList' name ='then'/>
+					<Action class ='ActionList' name ='else'/>
+				</If>
+				
+				<Action class ='ActionCreateAction' name = 'CreateList'>
+					<string name ='ClassName' value ='ActionList' />
+					<string name ='InstanceName' value ='ChildList' />
+				</Action>
+				
+				<Action class ='ActionCreateAction' name = 'CreateList'>
+					<string name ='ClassName' value ='ActionList' />
+					<string name ='InstanceName' value ='ChildList2' />
+				</Action>
+				
+				<Action class ='ActionDestroyAction' name = 'DestroyList'>
+					<string name ='InstanceName' value ='ChildList2' />
+				</Action>
+			</Action>
+		</Entity>
+	</Sector>
+</World>

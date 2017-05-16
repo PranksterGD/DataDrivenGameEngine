@@ -1,0 +1,10 @@
+<Scope name = 'level 1'> 
+	<integer name ='Health' value ='200' />
+	<integer name ='Health' value ='300' />
+	<float name ='Dps' value = '20.0f' />
+	<string name ='Name' value ='Soldier:76' />
+	<Scope name ='level2'>
+		<vector name='Position' value ='10.0, 10.0, 10.0, 10.0' />
+		<matrix name ='thing' value = '10.0, 0.0, 0.0, 0.0, 0.0, 10.0, 0.0, 0.0, 0.0, 0.0, 10.0, 0.0, 0.0, 0.0, 0.0, 10.0' />
+	</Scope>
+</Scope>
